@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* ----------------------------------
+    共通パーツ
+----------------------------------- */
+
+body {
+  background: #efefef;
+  margin: 0 auto;
+}
+
+/* ----------------------------------
+   クイズ部分
+----------------------------------- */
+header{
+  border-bottom: solid 2px black;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  word-break: break-all;
+}
+
+/* ----------------------------------
+    出題した問題の選択肢のデザイン
+----------------------------------- */
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 50px;
+  line-height: 50px;
+  background: #ffffff;
+  word-break: break-all;
+}
+
+li:hover {
+  background: #adc6ff;
+}
